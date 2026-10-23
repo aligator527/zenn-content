@@ -1,0 +1,11 @@
+{
+  "name": "zenn-content",
+  "private": true,
+  "description": "Articles published to Zenn. Written first at https://aligator527.github.io/notes/ and rewritten for Zenn, because Zenn does not support an external canonical URL.",
+  "devDependencies": {
+    "zenn-cli": "^0.1.158"
+  },
+  "scripts": {
+    "preview": "zenn preview"
+  }
+}
