@@ -13,6 +13,14 @@ So an article here is a rewrite for a different reader: shorter paragraphs, code
 prose, a checklist where the note has an argument, and a link to the original at the top for anyone
 who wants the long version.
 
+## How publishing works
+
+Zenn pulls from this repository through its GitHub integration, and the connection is granted per
+repository — pushing here does nothing until `aligator527/zenn-content` is selected in Zenn under
+Deploy → GitHub連携. After that, publishing is a push: an article with `published: true` in its
+frontmatter appears at `https://zenn.dev/aligator527/articles/<slug>`, and one with `false` stays a
+draft visible only to me.
+
 ## Working on it
 
 ```bash
